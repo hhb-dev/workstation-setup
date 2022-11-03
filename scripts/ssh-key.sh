@@ -3,7 +3,9 @@ echo "================="
 echo "  ssh-key start  "
 echo "================="
 
-cd ~/.ssh || exit
+cd ~
+cd mkdir .ssh
+cd ~/.ssh
 ssh-keygen -t rsa
 open .
 
