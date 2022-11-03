@@ -17,6 +17,7 @@ echo "export GIT_DUET_CO_AUTHORED_BY=1" >> ~/.zshenv
 echo "export GIT_DUET_ROTATE_AUTHOR=true" >> ~/.zshenv
 # use regular git commands
 echo "export GIT_DUET_SET_GIT_USER_CONFIG=1" >> ~/.zshenv
+source ~/.zshenv
 
 echo "connecting intellij"
 mkdir ~/bin

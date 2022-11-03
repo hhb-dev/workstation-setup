@@ -5,7 +5,7 @@ echo "================="
 
 cd ~
 cd mkdir .ssh
-cd ~/.ssh
+cd .ssh
 ssh-keygen -t rsa
 open .
 
