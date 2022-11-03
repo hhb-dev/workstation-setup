@@ -12,6 +12,9 @@ brew install android-file-transfer
 mas install 1429033973 # RunCat
 
 echo "installing dev tool"
+brew install fig
+fig install --input-method
+fig source
 brew install postman-agent
 brew install postgresql
 mas install 1483172210 # Free Ruler
