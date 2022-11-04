@@ -16,16 +16,10 @@ brew install fig
 fig install --input-method
 brew install postman-agent
 brew install postgresql
+brew services start postgresql
 mas install 1483172210 # Free Ruler
 
-echo "installing IDEs"
-brew install vim
-brew install intellij-idea
-brew install android-studio
-mas install 497799835 # Xcode
-sudo xcodebuild -license accept
-
 echo "======================"
-echo "  dev-utlities end    "
+echo "  dev-utilities end    "
 echo "======================"
 echo

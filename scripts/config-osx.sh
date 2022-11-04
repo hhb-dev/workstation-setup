@@ -14,6 +14,14 @@ defaults write com.apple.finder AppleShowAllFiles -bool YES && \
 killall Finder
 defaults write com.apple.desktopservices DSDontWriteNetworkStores True
 
+defaults write com.apple.dock tilesize -int 16
+defaults write com.apple.dock magnification -bool true
+defaults write com.apple.dock largesize -int 48
+defaults write com.apple.dock minimize-to-application -bool false
+defaults write com.apple.dock launchanim -bool false
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock show-recents -bool false
+
 echo "===================="
 echo "  config-osx end    "
 echo "===================="
