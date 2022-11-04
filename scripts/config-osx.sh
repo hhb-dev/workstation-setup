@@ -14,6 +14,7 @@ defaults write com.apple.finder AppleShowAllFiles -bool YES && \
 killall Finder
 defaults write com.apple.desktopservices DSDontWriteNetworkStores True
 
+# dock setting
 defaults write com.apple.dock tilesize -int 16
 defaults write com.apple.dock magnification -bool true
 defaults write com.apple.dock largesize -int 48
