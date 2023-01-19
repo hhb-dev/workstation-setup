@@ -15,7 +15,7 @@ echo "  please action to the following  "
 echo "----------------------------------"
 echo
 echo "copy id_rsb.pub"
-echo "paste to ssh-key at github, gitlab, etc."
+echo "paste to ssh-key on github, gitlab, etc."
 echo "** example url **"
 echo "https://github.com/settings/keys"
 echo
