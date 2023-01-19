@@ -1,3 +1,3 @@
 ```shell
-./setup.sh
+./setup-for-member.sh
 ```
