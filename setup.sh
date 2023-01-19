@@ -5,6 +5,7 @@ source ./oh-my-zsh.sh
 source ./git.sh
 source ./dev-utilities.sh
 source ./ide.sh
+source ./iac.sh
 source ./node.sh
 source ./python.sh
 source ./ssh-key.sh
