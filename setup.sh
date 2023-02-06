@@ -8,4 +8,6 @@ source ./ide.sh
 source ./iac.sh
 source ./node.sh
 source ./python.sh
+source ./go.sh
+source ./android.sh
 source ./ssh-key.sh
