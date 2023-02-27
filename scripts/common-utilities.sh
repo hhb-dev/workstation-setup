@@ -13,6 +13,7 @@ brew install pushplaylabs-sidekick
 brew install miro
 brew install notion
 brew install figma
+brew install deepl
 mas install 1429033973 # RunCat
 
 echo "installing dev tool"
