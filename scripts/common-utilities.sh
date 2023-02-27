@@ -9,11 +9,12 @@ brew install clipy
 brew install discord
 brew install slack
 brew install zoom
-brew install pushplaylabs-sidekick
+brew install google-chrome
 brew install miro
 brew install notion
 brew install figma
 brew install deepl
+brew install google-japanese-ime
 mas install 1429033973 # RunCat
 
 echo "installing dev tool"
