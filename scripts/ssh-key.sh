@@ -18,6 +18,7 @@ echo "copy id_rsb.pub"
 echo "paste to ssh-key on github, gitlab, etc."
 echo "** example url **"
 echo "https://github.com/settings/keys"
+echo "https://gitlab.***.com/-/profile/keys"
 echo
 echo "----------------------------------"
 echo "  thank you                       "
