@@ -7,14 +7,14 @@ cd ~ || exit
 mkdir .ssh
 cd .ssh || exit
 ssh-keygen -t rsa
-open .
+tr -d '\n' < ~/.ssh/id_ed25519.pub | pbcopy
 
 echo
 echo "----------------------------------"
 echo "  please action to the following  "
 echo "----------------------------------"
 echo
-echo "copy id_rsb.pub"
+echo "id_rsb.pub has already been copied to the clipboard."
 echo "paste to ssh-key on github, gitlab, etc."
 echo "** example url **"
 echo "https://github.com/settings/keys"

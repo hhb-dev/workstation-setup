@@ -1,13 +1,9 @@
 cd scripts || exit
-source ./config-osx.sh
-source ./homebrew.sh
-source ./oh-my-zsh.sh
-source ./git.sh
-source ./dev-utilities.sh
-source ./ide.sh
-source ./iac.sh
-source ./node.sh
-source ./python.sh
-source ./go.sh
-source ./android.sh
-source ./ssh-key.sh
+source ./01_config-osx.sh
+source ./02_homebrew.sh
+source ./03_oh-my-zsh.sh
+source ./04_git.sh
+source ./11_common-utilities.sh
+source ./12_dev-utilities.sh
+source ./13_ide.sh
+source ./99_ssh-key.sh

@@ -7,6 +7,7 @@ echo "installing git"
 brew install git
 brew tap git-duet/tap
 brew install git-duet
+brew install gh
 
 echo "setting git"
 # use globally
