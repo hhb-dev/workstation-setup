@@ -26,6 +26,8 @@ mkdir ~/bin
 curl -Ls -o ~/bin/jetbrains-git-wrapper https://raw.github.com/git-duet/git-duet/master/scripts/jetbrains-git-wrapper
 chmod +x ~/bin/jetbrains-git-wrapper
 
+git config --global alias.undo-commit 'reset --soft HEAD^'
+
 echo
 echo "----------------------------------"
 echo "  please action to the following  "
