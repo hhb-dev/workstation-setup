@@ -4,8 +4,6 @@ echo "  dev-utilities start  "
 echo "======================"
 
 echo "installing dev tool"
-brew install fig
-fig install --input-method
 brew install --cask docker
 mas install 1483172210 # Free Ruler
 
