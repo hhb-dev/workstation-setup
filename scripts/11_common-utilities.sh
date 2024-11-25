@@ -8,6 +8,7 @@ brew install clipy
 brew install discord
 brew install rectangle
 brew install --cask arc
+brew install --cask chatgpt
 mas install 1429033973 # RunCat
 
 echo "=========================="
