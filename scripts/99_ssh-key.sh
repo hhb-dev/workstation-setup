@@ -4,10 +4,16 @@ echo "  ssh-key start  "
 echo "================="
 
 cd ~ || exit
-mkdir .ssh
-cd .ssh || exit
-ssh-keygen -t rsa
-tr -d '\n' < ~/.ssh/id_ed25519.pub | pbcopy
+mkdir -p ~/.ssh
+cd ~/.ssh || exit
+ssh-keygen -t ed25519 -C "$EMAIL"
+if command -v pbcopy >/dev/null 2>&1; then
+  pbcopy < ~/.ssh/id_ed25519.pub
+  echo "public key successfully copied to clipboard"
+else
+  echo "pbcopy not found. here is your public key:"
+  cat ~/.ssh/id_ed25519.pub
+fi
 
 open -a "arc" https://github.com/settings/ssh/new
 
